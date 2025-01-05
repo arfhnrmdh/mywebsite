@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: cursive, Arial, sans-serif;
+    background-image: url(image/starcute.gif);
+    background-color: #FFF5EE;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    color: indianred;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li{
+    font-family: cursive;
+    margin:3px;
+}
+
+a {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inline-block; 
+    text-decoration: none;
+    text-align: center;
+    font-family: cursive;
+    font-size: 14px;
+    background-color:#E37383;
+    color:maroon;
+}
+
+a:hover {
+    color: #E37383;
+    background-color: #A52A2A;
+    font-weight: bold;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;   
+}
+
+a:link {
+    color: maroon;
+    background-color:#E37383;
+}
+
+a:visited {
+    color:floralwhite;
+    background-color: #E37383;
+}
+
+a:active {
+    color: maroon;
+    background-color: #E6E6FA;
+}
+
+a:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.nav{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    list-style: none;
+}
+
+.nav>li{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+}
+
+.nav>li>a{
+    width: auto;
+    text-decoration: white;
+    color: white;
+}
+
+div{
+    width: 60%;
+    height: 210px;
+    background: transparent ;
+    color: #946656;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 500px;
+    border: 10px double floralwhite;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+
